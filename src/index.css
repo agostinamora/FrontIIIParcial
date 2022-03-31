@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: rgb(246, 199, 211);
+}
+.layout {
+  height: 100vh;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Hina Mincho", serif;
+}
+
+.historia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  color: rgb(12, 11, 11);
+}
+
+.opciones {
+  color: rgb(7, 6, 6);
+}
+
+.opcion {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.recordatorio {
+  color: rgb(26, 24, 24);
+  margin-top: 60px;
+}
+
+.botones {
+  box-shadow: inset 0px 1px 0px 0px #f18787;
+  background: linear-gradient(to bottom, #f08a8a 5%, #f08a8a 100%);
+  background-color: #f08a8a;
+  border-radius: 6px;
+  border: 1px solid #f07474;
+  display: inline-block;
+  cursor: pointer;
+  color: #f8f7f7;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffffff;
+}
+.botones:hover {
+  background: linear-gradient(to bottom, #c74848 5%, #c74848 100%);
+  background-color: #e04646;
+}
+.botones:active {
+  position: relative;
+  top: 1px;
+}
